@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'poppinsregular';
+    font-weight: normal;
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    font-weight: normal;
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+body{
+  font-family: 'poppinsregular';
+  background-color: #fff;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+/*body, html{
+   font-family: 'poppinsmedium';
+}*/
+
+img{
+  max-width: 100%;
+}
+
+h3{
+  margin: 0 0 20px;
+  color: #108E59;
+  font-size: 32px;
+}
+
+h5{
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #FB4C47;
+}
+
+.container{
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.header-area{
+  /*background-color: salmon;*/
+  font-size: 0;
+  padding: 8px 0;
+
+}
+
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+  /*border: solid 2px red;*/
+  width: 192px;
+}
+
+.nav-menu{
+  text-align: right;
+  padding: 20px 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 958px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 38px;
+  /*background-color: slateblue;*/
+}
+
+.nav-links{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-btn{
+  border-radius: 46px;
+  text-align: center;
+  min-width: 154px;
+  padding: 12px 24px;
+  border: solid 1px #FB4C47;
+}
+
+/* /Header Area* /
+
+/* Banner Area */
+
+.banner-area{
+  font-size: 0;
+  padding: 110px 0;
+  /*background-color: slateblue;*/
+}
+
+.banner-text{
+  display: inline-block;
+  vertical-align: middle;
+  width: 525px;
+  /*border: solid 2px red;*/
+}
+
+.banner-alert{
+  font-weight: 700;
+  color: #FB4C47;
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+.banner-title{
+  font-weight: 700;
+  font-size: 36px;
+  color: #000;
+  margin: 0 0 30px;
+}
+
+.banner-desc{
+  font-size: 18px;
+  color: #000;
+  margin: 0 0 54px;
+  line-height: 1.5;
+}
+
+.btn-primary{
+  background-color: #FB4C47;
+  display: inline-block;
+  padding: 18px 48px;
+  min-width: 110px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 64px;
+}
+
+.banner-image{
+  display: inline-block;
+  vertical-align: top;
+  width: 625px;
+}
+
+.banner-image img{
+  display: block;
+  max-width: initial;
+  width: 620px;
+}
+
+/* /Banner Area */
+
+/* Introduction Area*/
+
+.introduction-area{
+  padding: 80px 0;
+  font-size: 0;
+}
+
+.intro-image{
+  display: inline-block;
+  vertical-align: middle;
+  width: 575px;
+}
+.intro-image img{
+  display: block;
+}
+
+.intro-text{
+  width: 575px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.intro-heading-title{
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #FB4C47;
+}
+
+.intro-title{
+  margin: 0 0 20px;
+  color: #108E59;
+  font-size: 24px;
+}
+
+.intro-desc{
+  color: #4B4F51;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 43px;
+  margin: 0 0 77px;
+}
+
+.btn-secondary{
+  background-color: #FFCFCF;
+  display: inline-block;
+  padding: 18px 48px;
+  min-width: 110px;
+  text-align: center;
+  color: #FB4C47;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 64px;
+}
+
+/* /Introduction Area */
+.contagion-area{
+  background: #fff url(../img/frames/f-1.png);
+  background-position: left 510px;
+  background-size: 320px 320px;
+  background-repeat: no-repeat;
+  padding: 110px 0;
+  font-size: 0;
+}
+
+.contagion-heading{
+  text-align: center;
+  padding: 20px;
+  /*background-color: lightblue;*/
+}
+
+.contagion-desc{
+  margin: 0 0 20px 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card-desc{
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 0 40px;
+}
+
+.card-list{
+  padding: 24px 0 120px;
+  text-align: center;
+  font-size: 0;
+  /*background-color: salmon;*/
+}
+
+.card-box{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px 40px;
+  background-color: #fff;
+  box-shadow: 0px 12px 35px 0px rgba(0,0,0,.1);
+  width: 330px;
+  margin-right: 40px;
+  border-radius: 10px;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+}
+
+.card-box:hover{
+  border-bottom: solid 6px #FA5652;
+}
+
+.card-box:last-child{
+  margin-right: 0;
+}
+
+.card-box img{
+  margin: 0 0 55px;
+  width: 270px;
+  display: block;
+}
+
+/* /Contagius Area*/
+
+/* Symptoms Area*/
+
+.symptoms-area{
+  padding:  0 0 112px;
+}
+
+.symptoms-heading{
+  text-align: center;
+  margin: 0 0 46px 0;
+}
+
+.symptoms-desc{
+  margin: 0 0 60px; 
+}
+.symptoms-image{
+  /*background-color: red;*/
+  padding: 20px;
+}
+
+
+.symptoms-image img{
+  display: block;
+
+}
